@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+html{
+    scroll-behavior: smooth; 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.flash{
+    margin-bottom:5px;
+}
+
+.menu{
+    height: 100%;
+    border-bottom:4px solid transparent;
+}
+.menu:hover{
+    border-bottom:4px solid#D74516;
+    background-image: url('./assets/images/flash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    
+}
+.bg-hero{
+    background-image: url('./assets/images/Sun-Energy\ Slider1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.bg-testimonial{
+    background-image: url('./assets/images/testimonial.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.fa-solid{
+    color: #f2b01e;
+}
+.fa-solid:last-child{
+    color: rgb(102, 103, 103);
+}
+.fa-location-dot, .fa-phone-volume, .fa-envelope{
+    color: #fff;
+
+}
+input, textarea{
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    padding:10px 10px;
+}
+.btn{
+    background: #D74516;
+    padding: 15px 30px;
+
+}
+.fa-brands{
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-arrow-turn-up:before{
+    color: white;
+    padding: 0px 5px;
+}
+.fa-sun{
+    width: 10px;
+    font-size: 23px;
+}
+.top-bar:first-child{
+    color: #fff;
+    font-size: 14px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1620px;
+}
+.fa-phone-volume:before, .fa-volume-control-phone:before, .fa-envelope:before {
+    color: #fff;
+    font-size: 16px;
+}
+.left{
+    width: 80vw;
+
+}
+.right{
+    width: 50vw;
+
+}
+.top-bar{
+    background-color: #D74516;
+}
+.right>a>i{
+    font-size: 12px;
+}
+.right{
+    display: flex;
+    gap: 20px;
+    padding: 5px 0px;
+    justify-content: end;
+}
